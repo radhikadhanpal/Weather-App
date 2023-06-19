@@ -1,0 +1,88 @@
+
+
+
+body{
+/* background: blue; */
+}
+
+.structure{
+width: 450px;
+margin: 50px auto;
+padding: 10px;
+
+}
+
+.inputs{
+padding: 2px 0 2px 0;
+text-align: center;
+justify-content: center; 
+background: white; 
+}
+
+.inputs input[type="text"]{
+    height: 3.5rem;
+    width: 20rem;
+    background: black;
+    font-size: 1rem;
+    background: transparent;
+    border: 2x solid;
+    border-radius: 2px;
+
+
+}
+
+.inputs input[type="Submit"]{
+    height: 3.2rem;
+    width: 6.5rem;
+    background-color: aqua;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    border-radius: 2pa;
+}
+
+.display{
+    text-align: center;
+    width: 400px;
+    color: blueviolet;
+    
+}
+
+.wrapper{
+    margin:0 9rem;
+    background-color: white;
+    height: 45vh;
+    margin: 50px auto;
+
+
+}
+
+
+.debug {
+border: 1px solid red; 
+
+
+}
+
+.max {
+    max-width: 800px;
+}
+
+.max-list {
+    max-width: 200px;
+}
+
+.ctr {
+    display: flex;
+    justify-content: center;
+}
+
+.ctr-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* .center {
+    display: flex;
+  justify-content: center;
+} */
